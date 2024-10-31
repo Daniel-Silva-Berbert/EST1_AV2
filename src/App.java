@@ -9,7 +9,7 @@ public class App {
     //Linear: O(n)
     public static int[] mm(int[] vetor){
         int[] m = {vetor[0], vetor[0]};
-        for(int i = 0; i < vetor.length; i++){
+        for(int i = 1; i < vetor.length; i++){
             if(m[0] < vetor[i])
                 m[0] = vetor[i];
             if(m[1] > vetor[i])
